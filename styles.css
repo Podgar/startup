@@ -1,0 +1,60 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.5rem;
+	line-height: 1.5;
+}
+
+h3 {
+
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+
+.montserrat {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+
+.download-btn {
+	margin: 16px 16px 16px 0;
+}
+
+.phone-img {
+	font-size: 320px;
+	transform: rotate(25deg);
+	position: absolute;
+}
+
+.fas-animated:hover {
+	color: grey;
+}
+
+#testimonialCarousel {
+	text-align: center;
+}
+
+.testimonial-img {
+	border-radius: 100%;
+	width: 25%;
+}
+
+.phone-img-second {
+	font-size: 320px;
+}
+
+@media (max-width: 768px) {
+	.phone-img{
+		display: none !important;
+	}
+}
